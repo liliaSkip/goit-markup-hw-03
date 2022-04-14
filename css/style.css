@@ -13,6 +13,8 @@
 
 /* контакты в футере background: #FFFFFF99;   rgba(0, 0, 0, 0.6); --contact-footer */
 /* Border: #eeeeee; --border-box */
+
+
 :root {
   --title-text-color: #212121;
   --primari-text-color: #757575;
@@ -279,6 +281,7 @@ h2 {
 .staff-box {
   padding-top: 30px;
   padding-bottom: 30px;
+  flex-grow: 1;
 }
 .staff-name {
   display: flex;
@@ -301,7 +304,7 @@ h2 {
 .staff-name .position {
   font-size: 16px;
   text-align: center;
-}
+ }
 
 /* Footer */
 
